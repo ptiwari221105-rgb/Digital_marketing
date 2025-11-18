@@ -1,0 +1,310 @@
+[00:00:02.532] Server  LOG      ✓ Ready in 1671ms
+[00:01:41.181] Server  LOG      ○ Compiling / ...
+[00:01:44.791] Server  ERROR    ⨯ ./app/page.jsx:2:1
+Module not found: Can't resolve '@/components/About'
+  1 | import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Services from '@/components/Services'
+  4 | import Portfolio from '@/components/Portfolio'
+  5 | import Testimonials from '@/components/Testimonials'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/layout.jsx:5:1
+Module not found: Can't resolve '@/components/Footer'
+  3 | import './globals.css'
+  4 | import Navbar from '@/components/Navbar'
+> 5 | import Footer from '@/components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Analytics } from '@vercel/analytics/react'
+  7 |
+  8 | const inter = Inter({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/page.jsx:1:1
+Module not found: Can't resolve '@/components/Hero'
+> 1 | import Hero from '@/components/Hero'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import About from '@/components/About'
+  3 | import Services from '@/components/Services'
+  4 | import Portfolio from '@/components/Portfolio'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/layout.jsx:4:1
+Module not found: Can't resolve '@/components/Navbar'
+  2 | import { ThemeProvider } from 'next-themes'
+  3 | import './globals.css'
+> 4 | import Navbar from '@/components/Navbar'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '@/components/Footer'
+  6 | import { Analytics } from '@vercel/analytics/react'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/page.jsx:4:1
+Module not found: Can't resolve '@/components/Portfolio'
+  2 | import About from '@/components/About'
+  3 | import Services from '@/components/Services'
+> 4 | import Portfolio from '@/components/Portfolio'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Testimonials from '@/components/Testimonials'
+  6 |
+  7 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/page.jsx:3:1
+Module not found: Can't resolve '@/components/Services'
+  1 | import Hero from '@/components/Hero'
+  2 | import About from '@/components/About'
+> 3 | import Services from '@/components/Services'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Portfolio from '@/components/Portfolio'
+  5 | import Testimonials from '@/components/Testimonials'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/page.jsx:5:1
+Module not found: Can't resolve '@/components/Testimonials'
+  3 | import Services from '@/components/Services'
+  4 | import Portfolio from '@/components/Portfolio'
+> 5 | import Testimonials from '@/components/Testimonials'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: 'Mavaliy Digital Marketing | SEO & Google Ads Expert',
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/layout.jsx:6:1
+Module not found: Can't resolve '@vercel/analytics/react'
+  4 | import Navbar from '@/components/Navbar'
+  5 | import Footer from '@/components/Footer'
+> 6 | import { Analytics } from '@vercel/analytics/react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({
+  9 |   subsets: ['latin'],
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:48.084] Browser ERROR   uncaughtError: Error: ./app/page.jsx:2:1
+Module not found: Can't resolve '@/components/About'
+  1 | import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Services from '@/components/Services'
+  4 | import Portfolio from '@/components/Portfolio'
+  5 | import Testimonials from '@/components/Testimonials'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:48.301] Browser ERROR   ./app/page.jsx:2:1
+Module not found: Can't resolve '@/components/About'
+  1 | import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Services from '@/components/Services'
+  4 | import Portfolio from '@/components/Portfolio'
+  5 | import Testimonials from '@/components/Testimonials'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.302] Browser ERROR   ./app/layout.jsx:5:1
+Module not found: Can't resolve '@/components/Footer'
+  3 | import './globals.css'
+  4 | import Navbar from '@/components/Navbar'
+> 5 | import Footer from '@/components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Analytics } from '@vercel/analytics/react'
+  7 |
+  8 | const inter = Inter({
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.302] Browser ERROR   ./app/page.jsx:1:1
+Module not found: Can't resolve '@/components/Hero'
+> 1 | import Hero from '@/components/Hero'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import About from '@/components/About'
+  3 | import Services from '@/components/Services'
+  4 | import Portfolio from '@/components/Portfolio'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.302] Browser ERROR   ./app/layout.jsx:4:1
+Module not found: Can't resolve '@/components/Navbar'
+  2 | import { ThemeProvider } from 'next-themes'
+  3 | import './globals.css'
+> 4 | import Navbar from '@/components/Navbar'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '@/components/Footer'
+  6 | import { Analytics } from '@vercel/analytics/react'
+  7 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.302] Browser ERROR   ./app/page.jsx:4:1
+Module not found: Can't resolve '@/components/Portfolio'
+  2 | import About from '@/components/About'
+  3 | import Services from '@/components/Services'
+> 4 | import Portfolio from '@/components/Portfolio'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Testimonials from '@/components/Testimonials'
+  6 |
+  7 | export const metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.302] Browser ERROR   ./app/page.jsx:3:1
+Module not found: Can't resolve '@/components/Services'
+  1 | import Hero from '@/components/Hero'
+  2 | import About from '@/components/About'
+> 3 | import Services from '@/components/Services'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Portfolio from '@/components/Portfolio'
+  5 | import Testimonials from '@/components/Testimonials'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.302] Browser ERROR   ./app/page.jsx:5:1
+Module not found: Can't resolve '@/components/Testimonials'
+  3 | import Services from '@/components/Services'
+  4 | import Portfolio from '@/components/Portfolio'
+> 5 | import Testimonials from '@/components/Testimonials'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: 'Mavaliy Digital Marketing | SEO & Google Ads Expert',
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.302] Browser ERROR   ./app/layout.jsx:6:1
+Module not found: Can't resolve '@vercel/analytics/react'
+  4 | import Navbar from '@/components/Navbar'
+  5 | import Footer from '@/components/Footer'
+> 6 | import { Analytics } from '@vercel/analytics/react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({
+  9 |   subsets: ['latin'],
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.674] Browser ERROR   ./app/page.jsx:2:1
+Module not found: Can't resolve '@/components/About'
+  1 | import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Services from '@/components/Services'
+  4 | import Portfolio from '@/components/Portfolio'
+  5 | import Testimonials from '@/components/Testimonials'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.674] Browser ERROR   ./app/layout.jsx:5:1
+Module not found: Can't resolve '@/components/Footer'
+  3 | import './globals.css'
+  4 | import Navbar from '@/components/Navbar'
+> 5 | import Footer from '@/components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Analytics } from '@vercel/analytics/react'
+  7 |
+  8 | const inter = Inter({
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.674] Browser ERROR   ./app/page.jsx:1:1
+Module not found: Can't resolve '@/components/Hero'
+> 1 | import Hero from '@/components/Hero'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import About from '@/components/About'
+  3 | import Services from '@/components/Services'
+  4 | import Portfolio from '@/components/Portfolio'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.674] Browser ERROR   ./app/layout.jsx:4:1
+Module not found: Can't resolve '@/components/Navbar'
+  2 | import { ThemeProvider } from 'next-themes'
+  3 | import './globals.css'
+> 4 | import Navbar from '@/components/Navbar'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '@/components/Footer'
+  6 | import { Analytics } from '@vercel/analytics/react'
+  7 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.674] Browser ERROR   ./app/page.jsx:4:1
+Module not found: Can't resolve '@/components/Portfolio'
+  2 | import About from '@/components/About'
+  3 | import Services from '@/components/Services'
+> 4 | import Portfolio from '@/components/Portfolio'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Testimonials from '@/components/Testimonials'
+  6 |
+  7 | export const metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.674] Browser ERROR   ./app/page.jsx:3:1
+Module not found: Can't resolve '@/components/Services'
+  1 | import Hero from '@/components/Hero'
+  2 | import About from '@/components/About'
+> 3 | import Services from '@/components/Services'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Portfolio from '@/components/Portfolio'
+  5 | import Testimonials from '@/components/Testimonials'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.674] Browser ERROR   ./app/page.jsx:5:1
+Module not found: Can't resolve '@/components/Testimonials'
+  3 | import Services from '@/components/Services'
+  4 | import Portfolio from '@/components/Portfolio'
+> 5 | import Testimonials from '@/components/Testimonials'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: 'Mavaliy Digital Marketing | SEO & Google Ads Expert',
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.674] Browser ERROR   ./app/layout.jsx:6:1
+Module not found: Can't resolve '@vercel/analytics/react'
+  4 | import Navbar from '@/components/Navbar'
+  5 | import Footer from '@/components/Footer'
+> 6 | import { Analytics } from '@vercel/analytics/react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({
+  9 |   subsets: ['latin'],
+
+https://nextjs.org/docs/messages/module-not-found
