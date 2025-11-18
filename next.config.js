@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   images: {
-    domains: ['localhost'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'localhost',
+      },
+    ],
     unoptimized: process.env.NODE_ENV === 'development',
   },
   async headers() {
@@ -31,73 +33,3 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
->>>>>>> 63b27bc4e0e10f407725238f21077f23ed8c105c
-=======
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
-  images: {
-    domains: ['localhost'],
-    unoptimized: process.env.NODE_ENV === 'development',
-  },
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: [
-          {
-            key: 'X-Frame-Options',
-            value: 'DENY',
-          },
-          {
-            key: 'X-Content-Type-Options',
-            value: 'nosniff',
-          },
-          {
-            key: 'Referrer-Policy',
-            value: 'origin-when-cross-origin',
-          },
-        ],
-      },
-    ]
-  },
-}
-
-module.exports = nextConfig
-=======
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
-  images: {
-    domains: ['localhost'],
-    unoptimized: process.env.NODE_ENV === 'development',
-  },
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: [
-          {
-            key: 'X-Frame-Options',
-            value: 'DENY',
-          },
-          {
-            key: 'X-Content-Type-Options',
-            value: 'nosniff',
-          },
-          {
-            key: 'Referrer-Policy',
-            value: 'origin-when-cross-origin',
-          },
-        ],
-      },
-    ]
-  },
-}
-
-module.exports = nextConfig
->>>>>>> 63b27bc4e0e10f407725238f21077f23ed8c105c
